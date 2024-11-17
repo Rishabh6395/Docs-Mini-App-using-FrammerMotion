@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+}
+
+::selection{
+    color: rgb(226, 168, 59);
+    background: transparent;
+}
